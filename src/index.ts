@@ -1,4 +1,4 @@
-import App from './app.svelte';
+import App from './app/_index.svelte';
 
 const app = new App({
    target: document.querySelector('#app'),
