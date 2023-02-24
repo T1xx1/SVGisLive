@@ -9,3 +9,15 @@
    <Editor bind:svg />
    <Out {svg} />
 </main>
+
+<style lang="scss">
+   main {
+      display: flex;
+      gap: 10px;
+      height: 89vh;
+
+      @media (max-width: 1000px) {
+         flex-direction: column;
+      }
+   }
+</style>

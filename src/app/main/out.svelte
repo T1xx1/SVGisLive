@@ -2,11 +2,13 @@
    export let svg;
 </script>
 
-<div>{@html svg}</div>
+<div class="block">{@html svg}</div>
 
 <style lang="scss">
    div {
+      align-items: center;
       border: 1px solid;
-      width: fit-content;
+      display: flex;
+      justify-content: center;
    }
 </style>
