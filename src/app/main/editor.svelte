@@ -7,3 +7,9 @@
    spellcheck="false"
    bind:value={svg}
 />
+
+<style>
+   textarea {
+      font-size: 1rem;
+   }
+</style>
