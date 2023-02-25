@@ -11,5 +11,6 @@
 <style>
    textarea {
       font-size: 1rem;
+      resize: none;
    }
 </style>

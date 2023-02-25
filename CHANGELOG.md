@@ -9,6 +9,7 @@
 
 -  Changelog
 -  Text ver
+-  Def svg at opening
 
 ### Changes
 
