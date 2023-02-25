@@ -14,7 +14,7 @@
    main {
       display: flex;
       gap: 10px;
-      height: 89vh;
+      height: 82.2vh;
 
       @media (max-width: 1000px) {
          flex-direction: column;
