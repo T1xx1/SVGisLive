@@ -1,7 +1,7 @@
 <script lang="ts">
+   import Header from './header/_index.svelte';
    import Main from './main/_index.svelte';
-   import Title from './title.svelte';
 </script>
 
-<Title />
+<Header />
 <Main />
