@@ -10,5 +10,9 @@
       border: 1px solid;
       display: flex;
       justify-content: center;
+
+      > :global(svg) {
+         border: 1px solid;
+      }
    }
 </style>
