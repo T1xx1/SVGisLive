@@ -1,5 +1,4 @@
 <script>
-   import Ver from './ver.svelte';
    import Title from './title.svelte';
 </script>
 
