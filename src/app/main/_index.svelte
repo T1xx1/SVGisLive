@@ -1,5 +1,5 @@
 <script>
-   import Editor from './editor.svelte';
+   import Editor from './editor/_index.svelte';
    import Out from './out.svelte';
 
    // @ts-ignore
