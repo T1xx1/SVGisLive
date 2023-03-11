@@ -1,11 +1,8 @@
 <script>
    import Bar from './bar/_index.svelte';
    import Editor from './editor/_index.svelte';
-   import Out from './out.svelte';
 
-   // @ts-ignore
-   import def from '../../assets/svg/def.svg?raw';
-   // @ts-ignore
+   // @ts-expect-error
    import logo from '../../assets/svg/logo.svg?raw';
 
    let svg = logo;
@@ -13,8 +10,7 @@
 
 <main>
    <Bar />
-   <Editor bind:svg />
-   <Out {svg} />
+   <Editor {svg} />
 </main>
 
 <style lang="scss">

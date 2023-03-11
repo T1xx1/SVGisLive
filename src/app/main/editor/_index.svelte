@@ -1,18 +1,15 @@
-<script lang="ts">
-   import Editor from './editor';
+<script>
+   import Code from './code/_index.svelte';
+   import Out from './out.svelte';
 
    export let svg;
-
-   let editor = new Editor();
 </script>
 
-<textarea
-   class="block"
-   spellcheck="false"
-   bind:this={editor.e}
-   bind:value={svg}
-   on:keyup={editor.formatter}
-/>
+<div id="editor">
+   <Code bind:svg />
+   <Out {svg} />
+</div>
+
 <style lang="scss">
    div {
       display: flex;
