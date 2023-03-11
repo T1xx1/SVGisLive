@@ -1,1 +1,3 @@
 # SVGisLive
+
+[CHANGELOG](./CHANGELOG.md)

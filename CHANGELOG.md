@@ -1,9 +1,24 @@
+[Back](./README.md)
+
 # Changelog
 
 > The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 > and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## 0.0.1
+<details>
+   <summary>Ver</summary>
+
+-  [0.0.1](#001-•-2023-02-26)
+-  [0.0.0](#000-•-2023-02-24)
+</details>
+
+<br />
+
+## 0.1.0
+
+-  Basic format rules
+
+## 0.0.1 • 2023-02-26
 
 ## Added
 
@@ -30,3 +45,7 @@
 -  Out
 -  Live preview
 -  Style
+
+<br />
+
+[Go up](#changelog)
