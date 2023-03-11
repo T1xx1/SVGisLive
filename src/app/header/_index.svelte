@@ -11,7 +11,5 @@
       align-items: center;
       display: flex;
       justify-content: center;
-
-      height: 13.5%;
    }
 </style>

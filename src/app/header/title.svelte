@@ -1,4 +1,4 @@
-<h1 class="theme-color">SVGisLive</h1>
+<h1>SVGisLive</h1>
 
 <style lang="scss">
    h1 {

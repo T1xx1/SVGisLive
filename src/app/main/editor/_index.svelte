@@ -13,11 +13,13 @@
    bind:value={svg}
    on:keyup={editor.formatter}
 />
+<style lang="scss">
+   div {
+      display: flex;
+      gap: 10px;
 
-<style>
-   textarea {
-      font-size: 1rem;
-      height: 50%;
-      resize: none;
+      @media (max-width: 1000px) {
+         flex-direction: column;
+      }
    }
 </style>

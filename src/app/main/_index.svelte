@@ -20,12 +20,9 @@
 <style lang="scss">
    main {
       display: flex;
+      flex-direction: column;
       gap: 10px;
-      
-      height: 81%;
 
-      @media (max-width: 1000px) {
-         flex-direction: column;
-      }
+      height: 80%;
    }
 </style>
