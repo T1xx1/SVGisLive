@@ -12,7 +12,8 @@
    footer {
       align-items: center;
       display: flex;
-      height: 5vh;
       justify-content: space-between;
+      
+      height: 5%;
    }
 </style>

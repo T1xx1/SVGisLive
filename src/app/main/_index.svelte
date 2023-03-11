@@ -1,4 +1,5 @@
 <script>
+   import Bar from './bar/_index.svelte';
    import Editor from './editor/_index.svelte';
    import Out from './out.svelte';
 
@@ -11,6 +12,7 @@
 </script>
 
 <main>
+   <Bar />
    <Editor bind:svg />
    <Out {svg} />
 </main>
@@ -19,7 +21,8 @@
    main {
       display: flex;
       gap: 10px;
-      height: 82.2vh;
+      
+      height: 81%;
 
       @media (max-width: 1000px) {
          flex-direction: column;

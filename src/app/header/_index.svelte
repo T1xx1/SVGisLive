@@ -10,7 +10,8 @@
    header {
       align-items: center;
       display: flex;
-      height: 12.5vh;
       justify-content: center;
+
+      height: 13.5%;
    }
 </style>

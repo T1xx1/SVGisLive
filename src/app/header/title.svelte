@@ -1,9 +1,8 @@
-<h1>SVGisLive</h1>
+<h1 class="theme-color">SVGisLive</h1>
 
 <style lang="scss">
    h1 {
-      color: #ffb13b;
-      font-size: 3.5rem;
+      font-size: 4rem;
       margin: 0;
    }
 </style>

@@ -9,9 +9,11 @@
 <style lang="scss">
    div {
       align-items: center;
-      border: 1px solid;
       display: flex;
       justify-content: center;
+      
+      border: 1px solid;
+      height: 50%;
 
       > :global(svg) {
          border: 1px solid;
