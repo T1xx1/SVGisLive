@@ -2,7 +2,8 @@
 
 <style lang="scss">
    h1 {
-      font-size: 4rem;
+      color: #ffb13b;
+      font-size: 3.5rem;
       margin: 0;
    }
 </style>
