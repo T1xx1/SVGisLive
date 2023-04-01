@@ -1,5 +1,10 @@
 <script lang="ts">
-   export let svg;
+   import os from '../os';
+
+
+   let svg;
+
+   os.store.subscribe(val => (svg = val));
 </script>
 
 <div id="out">{@html svg}</div>

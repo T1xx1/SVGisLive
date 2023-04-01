@@ -3,7 +3,7 @@
 </script>
 
 <div id="bar">
-   <New on:new />
+   <New />
 </div>
 
 <style lang="scss">

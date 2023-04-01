@@ -1,9 +1,11 @@
 <script lang="ts">
+   import os from '../../os';
    import Editor from './editor';
 
-   export let svg;
-
    let editor = new Editor();
+   let svg;
+
+   os.store.subscribe(val => (svg = val));
 </script>
 
 <textarea

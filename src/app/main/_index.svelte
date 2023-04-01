@@ -1,17 +1,11 @@
 <script>
-   import os from './os';
-
    import Bar from './bar/_index.svelte';
    import Editor from './editor/_index.svelte';
-
-   let svg;
-
-   os.store.subscribe(val => (svg = val));
 </script>
 
 <main>
-   <Bar on:new={os.new} />
-   <Editor {svg} />
+   <Bar />
+   <Editor />
 </main>
 
 <style lang="scss">

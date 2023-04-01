@@ -1,13 +1,11 @@
 <script>
    import Code from './code/_index.svelte';
    import Out from './out.svelte';
-
-   export let svg;
 </script>
 
 <div id="editor">
-   <Code bind:svg />
-   <Out {svg} />
+   <Code />
+   <Out />
 </div>
 
 <style lang="scss">
