@@ -1,24 +1,24 @@
 <script>
+   import os from './os';
+
    import Bar from './bar/_index.svelte';
    import Editor from './editor/_index.svelte';
 
-   // @ts-expect-error
-   import logo from '../../assets/svg/logo.svg?raw';
+   let svg;
 
-   let svg = logo;
+   os.store.subscribe(val => (svg = val));
 </script>
 
 <main>
-   <Bar />
+   <Bar on:new={os.new} />
    <Editor {svg} />
 </main>
 
 <style lang="scss">
    main {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-
-      height: 80%;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 0.2fr 1.8fr;
+      grid-auto-flow: row;
    }
 </style>

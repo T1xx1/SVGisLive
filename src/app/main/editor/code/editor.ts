@@ -26,8 +26,12 @@ export default class Editor {
    };
 
    formatter = () => {
+      let pos = this.caret.getPos();
+
       this.replace(/"/, "'");
       if (this.match(/\w\/>/)) this.replace(/\w\/>/, ' />');
+
+      this.caret.setPos(pos);
 
       if (this.match(/></)) {
          this.replace(/></g, '>\n<');
