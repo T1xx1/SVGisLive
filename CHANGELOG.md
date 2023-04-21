@@ -16,7 +16,11 @@
 
 ## 0.1.0
 
+## Added
+
 -  Basic format rules
+-  Btns bar
+-  New svg btn
 
 ## 0.0.1 • 2023-02-26
 
